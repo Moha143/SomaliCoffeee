@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/explore"
+        android:icon="@drawable/explore"
+        android:title="Explore"/>
+    <item
+        android:id="@+id/myorder"
+        android:icon="@drawable/order"
+        android:title="My Order"/>
+    <item
+        android:id="@+id/favourite"
+
+        android:icon="@drawable/favourite"
+        android:title="favourite"/>
+    <item
+        android:id="@+id/profile"
+
+        android:icon="@drawable/profiles"
+        android:title="Profile"/>
+</menu>

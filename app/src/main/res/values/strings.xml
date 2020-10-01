@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Somali Coffee </string>
+    <string name="soo_dhawaw">Kuso dhawaaw  maqaayada Somali Coffee</string>
+    <string name="macmiil">macmiil ku xernaaw maqaaayada  Somali Coffee</string>
+    <string name="welcome_back">Welcome back</string>
+    <string name="login_account">Login to your account</string>
+    <string name="create_account">Create Account</string>
+    <string name="confirm">Phone Confirmation</string>
+</resources>

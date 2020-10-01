@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "452288312565",
+    "firebase_url": "https://food-delivery-1fc74.firebaseio.com",
+    "project_id": "food-delivery-1fc74",
+    "storage_bucket": "food-delivery-1fc74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452288312565:android:c06e7441ed8c3d748e01bc",
+        "android_client_info": {
+          "package_name": "com.example.moha.omar.smalicoffeee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452288312565-pg4v98gk15qp21lag5307vri8nqt5jnn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.moha.omar.smalicoffeee",
+            "certificate_hash": "062a7e65e63e4c10b0b7b110c9ad6b53882277f5"
+          }
+        },
+        {
+          "client_id": "452288312565-vutp4f0h3qlk19sshakemi4gjn6d8rbj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOxyWTIeY8yKMayH8rKWyiPaZ_pCR_FOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452288312565-vutp4f0h3qlk19sshakemi4gjn6d8rbj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452288312565:android:2c2bc7d0b31c03bb8e01bc",
+        "android_client_info": {
+          "package_name": "com.example.moha.omar.somalifood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452288312565-kdn6b16b2jqnepfuef5o4c2m45ds6eot.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.moha.omar.somalifood",
+            "certificate_hash": "062a7e65e63e4c10b0b7b110c9ad6b53882277f5"
+          }
+        },
+        {
+          "client_id": "452288312565-vutp4f0h3qlk19sshakemi4gjn6d8rbj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOxyWTIeY8yKMayH8rKWyiPaZ_pCR_FOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452288312565-vutp4f0h3qlk19sshakemi4gjn6d8rbj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

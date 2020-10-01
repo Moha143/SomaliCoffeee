@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".FoodDetails">
+    <RelativeLayout
+        android:id="@+id/food_images_in_details"
+        android:layout_width="395dp"
+        android:orientation="vertical"
+        android:layout_height="352dp"
+        >
+        <ImageView
+            android:id="@+id/img_details"
+            android:layout_width="392dp"
+            android:layout_height="359dp"
+            android:src="@drawable/fooddetails"
+            />
+        <TextView
+
+           android:layout_marginTop="33dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_free_delivery"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/whitess"
+            android:text="Free Delivery"
+            android:textSize="12sp"
+
+            android:background="@drawable/free_delivery"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/food_name_in_details"
+            android:layout_marginLeft="18dp"
+            android:textColor="@color/whitess"
+            android:text="Cunto Macaan"
+            android:layout_below="@+id/tv_free_delivery"
+            android:textStyle="bold"
+
+            android:textSize="29sp"
+            android:layout_marginTop="60dp"
+            />
+        <RelativeLayout
+            android:layout_below="@+id/food_name_in_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/relative_cont1"
+
+            >
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:id="@+id/image_location_in_details"
+                android:layout_width="20dp"
+
+                android:layout_height="20dp"
+                android:src="@drawable/icon_location"
+                android:layout_marginLeft="20dp"
+                />
+            <TextView
+
+                android:textStyle="bold"
+                android:textColor="@color/whitess"
+                android:id="@+id/restaurant_name_in_details"
+                android:text="isgooyska Dabka"
+                android:layout_marginLeft="13dp"
+
+                android:layout_toRightOf="@+id/image_location_in_details"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <View
+
+            android:layout_below="@+id/relative_cont1"
+            android:layout_width="match_parent"
+            android:layout_height="0.9dp"
+            android:id="@+id/v1"
+            android:layout_gravity="center"
+            android:background="@color/whitess"
+            android:layout_marginTop="65dp"
+            />
+        <LinearLayout
+            android:layout_marginBottom="20dp"
+            android:layout_below="@id/v1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            >
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/star_white"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/star_white"
+                    />
+
+                <TextView
+                    android:id="@+id/food_rating_in_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="4dp"
+                    android:text="4.8"
+                    android:textStyle="bold"
+                    android:textColor="@color/whitess"
+                    android:layout_toRightOf="@id/star_white"
+                    />
+                <TextView
+                    android:id="@+id/total_rating_in_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="4dp"
+                    android:text="43 rating"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/whitess"
+                    android:layout_below="@+id/star_white"
+                    />
+            </RelativeLayout>
+            <View
+                android:layout_width="0.7dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@color/whitess"
+
+                />
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bookmark_in_details"
+                    android:src="@drawable/bookmark"
+                    />
+                <TextView
+                    android:id="@+id/numberof_Bookmark_in_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="4dp"
+                    android:text="1122k"
+                    android:textStyle="bold"
+                    android:textColor="@color/whitess"
+                    android:layout_toRightOf="@id/bookmark_in_details"
+                    />
+                <TextView
+                    android:id="@+id/bookmark_name_in_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="4dp"
+                    android:text="Bookmark"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/whitess"
+                    android:layout_below="@+id/numberof_Bookmark_in_details"
+                    />
+            </RelativeLayout>
+            <View
+                android:layout_width="0.7dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@color/whitess"
+
+                />
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                >
+
+
+                <ImageView
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/galary_in_details"
+                    android:src="@drawable/galary"
+                    />
+                <TextView
+                    android:id="@+id/numberof_galary_in_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="4dp"
+                    android:text="1122k"
+                    android:textStyle="bold"
+                    android:textColor="@color/whitess"
+                    android:layout_toRightOf="@id/galary_in_details"
+                    />
+                <TextView
+                    android:id="@+id/photes_name_in_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="4dp"
+                    android:text="Photes"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/whitess"
+                    android:layout_below="@+id/numberof_galary_in_details"
+                    />
+            </RelativeLayout>
+            <View
+                android:layout_width="0.7dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@color/whitess"
+                />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order now"
+            android:textSize="40dp"
+            android:id="@+id/btn_ordernow"
+            />
+
+    <include
+        layout="@layout/activity_home"
+        />
+
+
+</LinearLayout>

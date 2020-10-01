@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="150dp"
+    android:layout_height="180dp"
+    >
+
+<ImageView
+    android:layout_width="100dp"
+    android:id="@+id/categoryImages"
+    android:layout_height="100dp"
+    android:background="@drawable/rectangle_tamplate"
+    android:src="@drawable/burger"/>
+    <TextView
+        android:id="@+id/categoryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Burger"
+        android:textSize="17sp"
+        android:layout_marginLeft="8dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+
+        android:id="@+id/places"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="120 places"
+        android:textSize="12sp"
+        android:layout_marginLeft="8dp"
+        android:textColor="@color/black"
+        />
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Confirm">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrow_left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/arrow_left"
+
+        />
+    <TextView
+        android:layout_below="@id/arrow_left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm"
+        android:textSize="44sp"
+        android:textColor="@color/downriver"
+        android:layout_marginTop="10dp"
+        android:id="@+id/text"
+        android:gravity="center"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/relative_confirm"
+        android:background="@drawable/text_login"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/text"
+        android:gravity="center"
+        >
+        <EditText
+
+            android:paddingLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:textColor="@color/downriver"
+            android:hint="Code"
+            android:inputType="number"
+
+            android:id="@+id/textcode"
+
+            android:textSize="17sp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relative_btn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/btn_bg"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btn_finish"
+            android:background="@android:color/transparent"
+            android:text="FINISH"
+
+
+            android:textSize="27sp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/whitess"
+
+            />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
